@@ -54,3 +54,23 @@
 .flex-items>div {
   padding: 20px;
 }
+
+/* Flex Columns */
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-1 {
+  height: 100%;
+}
