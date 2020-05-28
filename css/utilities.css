@@ -65,6 +65,10 @@
 }
 
 /* Flex Columns */
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
+
 .flex-columns .row {
   display: flex;
   flex-direction: row;
@@ -127,7 +131,7 @@
 }
 
 .section-padding {
-  padding: 20px 20px 40px;
+  padding: 30px 20px 90px 20px;
 }
 
 /* Flex Grid */
