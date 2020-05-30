@@ -193,3 +193,35 @@ img {
 .footer .social a {
   margin: 0 10px;
 }
+
+/* Mobile */
+@media(max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    min-width: 100%;
+  }
+
+  .flex-grid .column {
+    margin-top: 20px;
+  }
+
+  .team img {
+    width: 80%;
+  }
+}
