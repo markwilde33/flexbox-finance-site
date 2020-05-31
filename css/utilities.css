@@ -138,6 +138,10 @@
   padding: 20px 20px 40px;
 }
 
+.section-padding-three {
+  padding: 4px 20px;
+}
+
 /* Flex Grid */
 .flex-grid .row {
   display: flex;
