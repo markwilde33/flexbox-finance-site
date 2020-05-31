@@ -179,7 +179,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 140px;
+  height: 120px;
 }
 
 .footer a {
@@ -191,7 +191,12 @@ img {
 }
 
 .footer .social a {
-  margin: 0 10px;
+  margin: 0 12px;
+
+}
+
+.social {
+  padding-top: 10px;
 }
 
 /* Mobile */
@@ -224,4 +229,14 @@ img {
   .team img {
     width: 80%;
   }
+}
+
+/* Blog */
+.hero.blog {
+  background: url('../images/home/blog.jpg') no-repeat center center/cover;
+  height: 45vh;
+}
+
+.blog-head {
+  padding-top: 30px;
 }
