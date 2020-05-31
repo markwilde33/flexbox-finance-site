@@ -240,3 +240,27 @@ img {
 .blog-head {
   padding-top: 30px;
 }
+
+/* Post */
+
+.post {
+  padding: 50px 30px;
+}
+
+.post h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: #ccc solid 1px;
+}
+
+.post img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.post .meta {
+  margin-bottom: 30px;
+}
